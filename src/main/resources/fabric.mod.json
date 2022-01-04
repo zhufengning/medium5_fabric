@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "medium5",
+  "version": "${version}",
+  "name": "Medium5",
+  "description": "想做完五维介质",
+  "authors": [
+    "BuringStraw"
+  ],
+  "contact": {
+    "website": "https://zhufn.fun"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/medium5/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "fun.zhufn.medium5.client.Medium5Client"
+    ],
+    "main": [
+      "fun.zhufn.medium5.Medium5"
+    ]
+  },
+  "mixins": [
+    "medium5.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
